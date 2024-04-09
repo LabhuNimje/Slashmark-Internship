@@ -1,90 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Your Product Landing Page</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: lightblue;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
-
-        .column {
-            flex: 1;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .image-column img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 8px;
-            box-shadow: 0 0 0px rgba(0, 0, 0, 0);
-        }
-
-        .product-info-column {
-            text-align: left;
-        }
-
-        .cta-column {
-            text-align: center;
-        }
-
-        .product-info {
-            color: #333;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-decoration: none;
-            background-color: #3498db;
-            color: #fff;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background-color: #217dbb;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="plph.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-
-<div class="container">
-    <div class="column image-column">
-        <img src="watch.png" alt="Product Image">
+    <div class="logo">
+        <img src="logo.png" alt="Company Logo">
+    </div>
+    <div class="box">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <div class="column product-info-column">
-        <h1><em>LSN</em> Smart Watch</h1>
-        <p class="product-info">Introducing our revolutionary smartwatch, designed to seamlessly integrate into your daily life. Stay connected and informed with real-time notifications, track your fitness goals with advanced health monitoring features, and enjoy a sleek and durable design. Elevate your everyday experience with the cutting-edge technology of our smartwatch.</p>
-        <ul class="product-info">
-            <li>High-resolution display (Amoled)</li>
-            <li>Long-lasting battery life (72 hours)</li>
-            <li>Water-resistant design</li>
-        </ul>
+    <div class="cta">
+        <a href="#signup" class="btn">Sign Up</a>
+    </div>
+    
+    <div class="container">
+        <div class="left-column">
+            <h2>Discover Our Product</h2>
+            <p>Introducing our revolutionary smartwatch, designed to seamlessly integrate into your daily life. Stay connected and informed with real-time notifications, track your fitness goals with advanced health monitoring features, and enjoy a sleek and durable design. Elevate your everyday experience with the cutting-edge technology of our smartwatch.</p>
+            <img src="watch.png" alt="Product Image">
+            <ul>
+                <li> Android</li>
+                <li> Water Resistant</li>
+                <li> OLED Screen</li>
+            </ul>
+            <a href="#signup" class="btn2">Sign Up Now</a>
+        </div>
+        
+        <div class="right-column">
+            <h2>Why Choose Our Product?</h2>
+            <p>Choosing an Android smartwatch offers unparalleled convenience, keeping you connected with seamless notifications and instant access to essential information. With robust fitness tracking and health monitoring features, it becomes your personal wellness companion, empowering you to achieve your fitness goals and stay mindful of your health. Integrated voice commands and virtual assistants streamline your daily tasks, allowing for hands-free operation and effortless multitasking. With a wide range of customizable options and compatibility with Android devices, an Android smartwatch is the perfect blend of style, functionality, and versatility for modern lifestyles.</p>
+            <ul>
+                <li> Convenient Notifications</li>
+                <li> Fitness Tracking and Health Monitoring</li>
+                <li> Voice Commands and Assistant Integration</li>
+            </ul>
+            <h3>Pricing Plans</h3>
+            <ul class="pricing-plans">
+                <li>Basic Plan: $9.99/month</li>
+                <li>Pro Plan: $19.99/month</li>
+                <li>Premium Plan: $29.99/month</li>
+            </ul>
+        </div>
+        
     </div>
 
-    <div class="column cta-column">
-        <p>Price: $99.99</p>
-        <a href="#" class="cta-button">Buy Now</a>
-    </div>
-</div>
+    <footer>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: digitaltech@lsn.com</p>
+            <p>Phone: +91 987-654-3210</p>
+            <p>Address: 123 Dalal Street, Delhi, India</p>
+        </div>
+        <div class="social-media">
+            <h3>Connect With Us: </h3>
+                <ul class="media">
+                    <li><a href="https://www.facebook.com/example" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/example" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/example" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="sitemap">
+            <h3>Site Map</h3>
+            <ul class="site">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About Us</a><li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
-

@@ -1,0 +1,143 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-column {
+    border-right: 1px solid #ccc;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    padding: 9px 0;
+}
+.box{
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    background-color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    transform: translate( 1400%, -180%);
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.btn2{
+    display: inline-block;
+    transform: translate(15%, 0%);
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+.media {
+    background-color: white;
+    color: black;
+    text-align: center;
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+}
+.media li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.social-media {
+    color: #090909;
+    text-align: center;
+    font-size: 100%;
+    margin: 0 10px;
+}
+
+.sitemap{
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.sitemap h3{
+    text-align: center;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        border: none;
+    }
+}
+.newsletter{
+    text-align: center;
+    background-color:#333;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.site li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.copyright{
+    text-align: center;
+}
