@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Product Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .image-column img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+        }
+
+        .product-info-column {
+            text-align: left;
+        }
+
+        .cta-column {
+            text-align: center;
+        }
+
+        .product-info {
+            color: #333;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #217dbb;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="column image-column">
+        <img src="watch.png" alt="Product Image">
+    </div>
+
+    <div class="column product-info-column">
+        <h1><em>LSN</em> Smart Watch</h1>
+        <p class="product-info">Introducing our revolutionary smartwatch, designed to seamlessly integrate into your daily life. Stay connected and informed with real-time notifications, track your fitness goals with advanced health monitoring features, and enjoy a sleek and durable design. Elevate your everyday experience with the cutting-edge technology of our smartwatch.</p>
+        <ul class="product-info">
+            <li>High-resolution display (Amoled)</li>
+            <li>Long-lasting battery life (72 hours)</li>
+            <li>Water-resistant design</li>
+        </ul>
+    </div>
+
+    <div class="column cta-column">
+        <p>Price: $99.99</p>
+        <a href="#" class="cta-button">Buy Now</a>
+    </div>
+</div>
+
+</body>
+</html>
+
