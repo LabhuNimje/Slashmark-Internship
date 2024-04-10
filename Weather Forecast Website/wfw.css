@@ -1,9 +1,5 @@
-/*-----------------  GOOGLE FONTS  -----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
-
-/*-----------------  VARIABLES  -----------------*/
 :root {
-    /* Colors */ 
     --orange-color: rgb(246, 99, 53);
     --dark-color:rgb(27, 31, 41);
     --border: rgba(255, 255, 255, 0.25);
@@ -13,7 +9,6 @@
 
 html{
     font-size: 10px;
-    /* Now 1rem = 10px */
 }
 
 * {
