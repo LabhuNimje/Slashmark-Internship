@@ -1,9 +1,7 @@
-/* --------------- Weather Web App  --------------------- */
 let show = document.getElementById("show");
 let search = document.getElementById("search");
 let cityVal = document.getElementById("city");
 
-//Make sure you have your own key.
 let key = "2f745fa85d563da5adb87b6cd4b81caf";
 
 let getWeather = () => {
